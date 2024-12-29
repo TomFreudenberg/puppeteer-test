@@ -1,0 +1,12 @@
+{
+  "name": "puppeteer-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node puppeteer-test.js RECHNUNG-ABCD-1234.html pdf ./RECHNUNG-ABCD-1234.pdf",
+    "build2": "node puppeteer-test.js RECHNUNG-N24M-E123.html pdf ./RECHNUNG-N24M-E123.pdf"
+  },
+  "dependencies": {
+    "puppeteer": "^23.11.1"
+  }
+}
