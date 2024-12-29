@@ -7,6 +7,6 @@
     "build2": "node puppeteer-test.js RECHNUNG-N24M-E123.html pdf ./RECHNUNG-N24M-E123.pdf"
   },
   "dependencies": {
-    "puppeteer": "^23.11.1"
+    "puppeteer": "23.11.1"
   }
 }
